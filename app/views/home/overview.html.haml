@@ -1,0 +1,21 @@
+= render partial:"top"
+#mainContainer
+	#pageTitle
+		%h1
+			Overview
+	#about_us_overview
+		%p{class:"aboutUsClass"} At its foundation, The Corners Society is dedicated to honoring the City of Charlotte through philanthropic, civic, and charitable action. In this community that has given so much, The Corners Society works to give back. 
+
+		%p{class:"aboutUsClass"} The Corners Society operates through a high level of community involvement and hands-on volunteer work in an effort to carry out the following:
+
+		%ol{class:"aboutUsList"}
+			%li Identification of charities (Target Charities) that are in the greatest need of immediate assistance.
+			%li Directly volunteering within Target Charities for specific projects that respond to the needs of the City of Charlotte and surrounding area.
+			%li Donation of necessary goods or services that address shortages on the community level as well as the individual charity or organization level.
+			%li Financial support of Target Charities that directly impact the Charlotte community by addressing the City’s primary philanthropic needs.
+  
+		%p{class:"aboutUsClass"} Through a commitment to direct involvement in charitable projects, The Corners Society advantage lies in its ability to allocate financial resources in conjunction with direct volunteer involvement in an effort to produce the most significant positive impact to our community and its citizens.
+		#about_us_images
+			= image_tag 'IMG_0501.jpg', :alt => 'Urban Ministry', :id => 'img1'
+			= image_tag 'hab_9.jpg', :alt => 'Habitat For Humanity', :id => 'img2'
+= render partial:"footer"

@@ -1,0 +1,310 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$borderColor:#948A54;
+$borderRadius: 50px;
+$homeImageBorderRadius: 10px;
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Copperplate Gothic Light';
+	background: #1E497C;
+	background: -moz-radial-gradient(50%, farthest-corner, #6D97C8, #1E497C);
+	background: -webkit-gradient(radial, center center, 0, center center, 1000, from(#6D97C8), to(#1E497C));
+	color: white;
+}
+#top{
+	width: 800px;
+	height: 125px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 40px;
+	
+}
+.titleFont{
+	font-size: 250%;
+}
+#DropDowns{
+	position: relative;
+	z-index: 50;
+}
+#DropDowns ul{
+	list-style-type: none;
+	display: inline;
+}
+#DropDowns ul li a{
+	color: white;
+	text-decoration: none;
+}
+#DropDowns ul li{
+	background-color:#6D97C8;
+	display:none;
+	opacity: .85;
+}
+#DropDowns ul li:hover{
+	background-color:#1E497C;
+}
+#dropDownTable{
+	margin-left: 290px;
+	font-size: 140%;
+	position: relative;
+	top : -20px;
+}
+#dropDownTable td{
+	vertical-align: top;
+	width: 95px;
+	text-align: center;
+}
+#lowerTitleFont{
+	padding-left:80px;
+	color:#E8E8E8;
+	font-style: italic;
+	font-size: 125%;
+}
+#mainContainer {
+	border:4px solid $borderColor;
+	width: 800px;
+	height: 850px;
+	margin-left:auto;
+	margin-right:auto;
+	-moz-border-radius: $borderRadius;
+	border-radius: $borderRadius;
+	background-color: #E8E8E8;
+}
+#cornersLogo{
+	border: 3px solid #948A54;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	height: 100px;
+}
+.homeImages{
+	border: solid #909090 1px;
+}
+#home1{
+	width:300px;
+	position: relative;
+	top: 50px;
+	margin-left: 88px;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+}
+#home2{
+	width:300px;
+	position: relative;
+	top: 50px;
+	margin-left: 20px;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+}
+#home3{
+	width: 628px;
+	position: relative;
+	top: 65px;
+	left: 87px;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+}
+#footer{
+	font-size: 12px;
+	color: #aaa;
+	text-align:center;
+	padding: 10px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+#about_us_overview{
+	margin-top:15px;
+ 	color:#444444;
+}
+#about_us_overview h2{
+	width:100%;
+	text-align:center;
+	color:#948A54;
+	margin-top:65px;
+}
+.aboutUsClass{
+	font-size: 115%;
+	line-height: 25px;
+	margin-left:35px;
+	margin-right:35px;
+}
+.aboutUsList{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color:white;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+	font-size: 120%;
+	margin-top:5px;
+	margin-left:45px;
+	margin-right:45px;
+}
+#boardMembers{
+}
+#about_us_images{
+	margin-left:auto;
+	margin-right:auto;
+	width: 620px;
+}
+#about_us_images img{
+	width:300px;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+}
+#pageTitle{
+	text-align: center;
+	color:#444444;
+	margin:0;
+}
+#membersTable{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#membersTable tr td{
+	text-align:center;
+}
+.membersLabel{
+	font-size:130%;
+}
+.memberList{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#goals_initiatives{
+	color:#444444;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size: 110%;
+	line-height: 25px;
+}
+#goals_initiatives img{
+	float: right; 
+	margin-left: 20px;
+	height: 260px;
+	-moz-border-radius: $homeImageBorderRadius;
+	border-radius: $homeImageBorderRadius;
+}
+#goals_initiatives ul li{
+	margin-top:40px;
+}
+#goals_initiatives ul{
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	list-style: none;
+	margin:none;
+}
+#goals_initiatives h4{
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	margin:none;
+}
+table.topTabs{
+	width:65%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	text-align:center;
+}
+.topTabs tr td a{
+		color:$borderColor;
+		font-size: 130%;
+}
+.topPanes p{
+	color: #444;
+	font-size: 110%;
+	line-height: 25px;
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:25px;
+}
+.topPanes table{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.pictures{
+	width:80%;
+}
+.pictures img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:400px;
+}
+.navButton:hover{
+	cursor:pointer;
+}
+.navButtonPrev{
+	margin-left:auto;
+	margin-right:auto;
+	width:65px;
+	height: 60px;
+	overflow: hidden;
+}
+.navButtonPrev img{
+	position: relative;
+	top: -67px;
+	right: 110px;
+}
+.navButtonNext{
+	margin-left:auto;
+	margin-right:auto;
+	width:65px;
+	height: 60px;
+	overflow: hidden;
+}
+.navButtonNext img{
+	position: relative;
+	top: -67px;
+	right: 187px;
+}
+/* tabs (those little circles below slides) */
+.slidetabs {
+	clear:both;
+	width:10%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* single tab */
+.slidetabs a {
+	width:8px;
+	height:8px;
+	float:left;
+	margin:3px;
+	background:url('/assets/navigator.png') 0 0 no-repeat;
+	display:block;
+	font-size:1px;		
+}
+
+/* mouseover state */
+.slidetabs a:hover {
+	background-position:0 -8px;      
+}
+
+/* active state (current page state) */
+.slidetabs a.current {
+	background-position:0 -16px;     
+} 	
+h4.ourWorkHeader{
+	font-size: 130%;
+	color: #444;
+	margin-top: 25px;
+	margin-left: 40px;
+	-webkit-margin-before: 25px;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}

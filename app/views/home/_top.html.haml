@@ -1,0 +1,54 @@
+#top
+	%table
+		%tr
+			%td
+				= image_tag("corner_logo.png", id:"cornersLogo")
+			%td
+				%span{class:"titleFont"}
+					The Corners Society
+				%br
+				%span{id:"lowerTitleFont"}
+					Veneratio Per Caritatem
+	#DropDowns
+		%table{id:"dropDownTable"}
+			%tr
+				%td
+					%span
+						About Us
+					%ul
+						%li
+							= link_to "Overview", home_overview_path
+						%li
+							= link_to "Members", home_members_path
+				%td
+					%span
+						Goals
+					%ul
+						%li
+							= link_to "Initiatives", home_initiatives_path
+				%td
+					%span
+						Our Work
+					%ul
+						%li
+							= link_to "2011", home_work2011_path
+						%li
+							= link_to "2010", home_work2010_path
+				%td
+					%span
+						Events
+					%ul
+						%li
+							= link_to "2011", home_event2011_path
+						%li
+							= link_to "2010 Gala", home_event2010_path
+				%td
+					%span
+						Donations
+					%ul
+						%li
+							= link_to "Why Give?", home_whygive_path
+						%li
+							= link_to "2010 Sponsors", home_sponsors2010_path
+						%li
+							= link_to "Make a Donation", home_makedonation_path

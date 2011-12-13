@@ -1,0 +1,35 @@
+= render partial:"top"
+#mainContainer
+	#pageTitle
+		%h1
+			Our Work 2011
+	#ourWork
+		%table{class:"topTabs"}
+			%tr
+				%td
+					%a{href:"#"}
+						Catawba Lands Conservancy
+		
+		.topPanes
+			%div
+				%h4{class:"ourWorkHeader"}
+					Catawba Lands Conservancy
+				%p
+					Members of The Corners Society joined with 40 other local volunteers to rehabilitate the Carolina Thread Trail as part of the Catawba Lands Conservancy's initiative to preserve the Southern Piedmont of North Carolina. The Corners Society believes in the value of preserving the natural resources of the greater Charlotte area, and we were excited about the opportunity to help clean and clear this trail so that others may enjoy it.
+				%table
+					%tr
+						%td{class:"navButton"}
+							%a{class:"backward"}
+								.navButtonPrev
+									= image_tag 'nextImages.jpg'
+						%td{class:"pictures"}
+							= image_tag 'CA01.jpg'
+							= image_tag 'CA02.jpg'
+						%td{class:"navButton"}
+							%a{class:"forward"}
+								.navButtonNext
+									=image_tag 'nextImages.jpg'
+				.slidetabs
+					%a{href:"#"}
+					%a{href:"#"}
+= render partial:"footer"
