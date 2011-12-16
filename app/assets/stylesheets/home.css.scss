@@ -31,16 +31,20 @@ body {
 }
 #DropDowns ul{
 	list-style-type: none;
-	display: inline;
+	display: table-row;
+	//display:none;
+
 }
 #DropDowns ul li a{
 	color: white;
 	text-decoration: none;
+
 }
 #DropDowns ul li{
 	background-color:#6D97C8;
-	display:none;
+	width: 90px;
 	opacity: .85;
+	display:none;
 }
 #DropDowns ul li:hover{
 	background-color:#1E497C;
@@ -198,7 +202,8 @@ body {
 	-webkit-margin-end: 0px;
 	-webkit-padding-start: 0px;
 	list-style: none;
-	margin:none;
+	margin:0px;
+	padding-left:0px;
 }
 #goals_initiatives h4{
 	-webkit-margin-before: 0em;
@@ -206,7 +211,7 @@ body {
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
 	-webkit-padding-start: 0px;
-	margin:none;
+	margin:0px;
 }
 table.topTabs{
 	width:65%;
@@ -221,7 +226,7 @@ table.topTabs{
 }
 .topPanes p{
 	color: #444;
-	font-size: 110%;
+	font-size: 100%;
 	line-height: 25px;
 	width:90%;
 	margin-left:auto;
