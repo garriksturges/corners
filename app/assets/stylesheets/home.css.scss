@@ -254,26 +254,28 @@ table.topTabs{
 .navButtonPrev{
 	margin-left:auto;
 	margin-right:auto;
+	position:relative;
 	width:65px;
 	height: 60px;
 	overflow: hidden;
 }
 .navButtonPrev img{
-	position: relative;
+	position: absolute;
 	top: -67px;
-	right: 110px;
+	right: -185px;
 }
 .navButtonNext{
 	margin-left:auto;
 	margin-right:auto;
+	position:relative;
 	width:65px;
 	height: 60px;
 	overflow: hidden;
 }
 .navButtonNext img{
-	position: relative;
+	position: absolute;
 	top: -67px;
-	right: 187px;
+	right: -110px;
 }
 /* tabs (those little circles below slides) */
 .slidetabs {
