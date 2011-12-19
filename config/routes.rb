@@ -6,6 +6,7 @@ Corners::Application.routes.draw do
   get "home/initiatives"
   get "home/work2011"
   get "home/work2010"
+  get "home/event2010"
   get "home/event2011"
   get "home/event2012"
   get "home/whygive"
