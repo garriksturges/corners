@@ -29,30 +29,47 @@ body {
 #DropDowns{
 	position: relative;
 	z-index: 50;
+	padding-left: 280px;
+	top: -18px;
 }
-#DropDowns ul{
+#DropDowns ul, table{
 	list-style-type: none;
 	display: table-row;
+	width:100%;
 	//display:none;
+
+}
+#dropDownTable table tr td a{
+	color: white;
+	text-decoration: none;
 
 }
 #DropDowns ul li a{
 	color: white;
 	text-decoration: none;
-
 }
-#DropDowns ul li{
+#dropDownTable table{
 	background-color:#6D97C8;
 	width: 90px;
 	opacity: .85;
 	display:none;
 }
+#dropDownTable table tr td:hover{
+	background-color:#1E497C;
+}
+
+#DropDowns ul li{
+	background-color:#6D97C8;
+	width: 90px;
+	opacity: .85;
+//	display:none;
+}
 #DropDowns ul li:hover{
 	background-color:#1E497C;
 }
 #dropDownTable{
-	margin-left: 290px;
-	font-size: 140%;
+	//margin-left: 290px;
+	font-size: 125%;
 	position: relative;
 	top : -20px;
 }
@@ -147,6 +164,14 @@ body {
 	margin-right:45px;
 }
 #boardMembers{
+margin-left: auto;
+margin-right: auto;
+width: 450px;
+}
+#boardMembers table{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #about_us_images{
 	margin-left:auto;
@@ -170,6 +195,7 @@ body {
 }
 #membersTable tr td{
 	text-align:center;
+	width: 270px;
 }
 .membersLabel{
 	font-size:130%;

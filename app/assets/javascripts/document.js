@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$("#dropDownTable tr td").hover(
-		function(){$(this).find("li").toggle();}
+		function(){$(this).find("table").toggle();}
 		//function(){$(this).find("li").css('display','table-row');},
 		//function(){$(this).find("li").css('display','none');}
 		);
