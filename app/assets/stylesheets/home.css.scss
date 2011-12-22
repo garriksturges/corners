@@ -94,6 +94,9 @@ body {
 	border-radius: $borderRadius;
 	background-color: #FCFCFC;//#E8E8E8;
 }
+#mainContainer table{
+ display:table;
+}
 #cornersLogo{
 	border: 3px solid #948A54;
 	-moz-border-radius: 20px;
