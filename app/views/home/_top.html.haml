@@ -1,11 +1,12 @@
 #top
-	%table
+	%table{id:"logoTable"}
 		%tr
 			%td
-				= image_tag("corner_logo.png", id:"cornersLogo")
+				= link_to image_tag("corner_logo.png", id:"cornersLogo"), root_path
 			%td
-				%span{class:"titleFont"}
-					The Corners Society
+				%a{href: root_path}
+					%span{class:"titleFont"}
+						The Corners Society
 				%br
 				%span{id:"lowerTitleFont"}
 					Veneratio Per Caritatem

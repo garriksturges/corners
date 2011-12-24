@@ -1,8 +1,25 @@
 = render partial:"ie"
-= render partial:"top"
-#mainContainer
-	/%img{src:"assets/home1.jpg", id:"home1", class:"homeImages"}
-	/%img{src:"assets/home2.jpg", id:"home2", class:"homeImages"}
-	%img{src:"assets/charlotteSkyline.jpg", id:"home3", class:"homeImages"}
-	/%img{src:"assets/home3.jpg", id:"home3", class:"homeImages"}
-= render partial:"footer"
+#homePage
+	%table{id:"logoTable"}
+		%tr
+			%td
+				= link_to image_tag("corner_logo.png", id:"cornersLogo"), home_overview_path
+			%td
+				%a{href: home_overview_path}
+					%span{class:"titleFont"}
+						&nbsp;&nbsp;The Corners Society
+				%table
+					%tr
+						%td
+							%a{href: home_overview_path}
+								%span{id:"lowerTitleFontHomePage"}
+									Veneratio Per Caritatem
+	.homepageImages
+		= link_to image_tag("charlotteSkyline.jpg", id:"home3"), home_overview_path
+//%img{src:"assets/charlotteSkyline.jpg", id:"home3", class:"homeImages"}
+//#mainContainer
+//%img{src:"assets/home1.jpg", id:"home1", class:"homeImages"}
+//%img{src:"assets/home2.jpg", id:"home2", class:"homeImages"}
+//%img{src:"assets/charlotteSkyline.jpg", id:"home3", class:"homeImages"}
+//%img{src:"assets/home3.jpg", id:"home3", class:"homeImages"}
+/= render partial:"footer"

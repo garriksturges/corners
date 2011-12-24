@@ -2,17 +2,23 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$borderColor:#948A54;
+$borderColor:#666666;//#948A54;
 $borderRadius: 50px;
 $homeImageBorderRadius: 10px;
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Copperplate Gothic Light';
-	background:#1E497C;
-	background: -moz-radial-gradient(50%, farthest-corner, #6D97C8, #1E497C);
-	background: -webkit-gradient(radial, center center, 0, center center, 1000, from(#6D97C8), to(#1E497C));
+	background:#666666;//#1E497C;
+	//background: -moz-radial-gradient(50%, farthest-corner, #6D97C8, #1E497C);
+	//background: -webkit-gradient(radial, center center, 0, center center, 1000, from(#6D97C8), to(#1E497C));
 	color: white;
+}
+#homePage{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;;
 }
 
 #top{
@@ -20,8 +26,24 @@ body {
 	height: 125px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 40px;
-	
+	margin-top: 40px;	
+}
+#logoTable a{
+	text-decoration:none;
+	color:white;
+}
+#homePage .titleFont{
+	font-size: 470%;
+}
+#homePage table{
+	text-align: center;
+	width:675px;
+}
+#lowerTitleFontHomePage{
+	color:#E8E8E8;
+	font-style: italic;
+	font-size: 200%;
+	padding-left: 175px;
 }
 .titleFont{
 	font-size: 250%;
@@ -49,13 +71,13 @@ body {
 	text-decoration: none;
 }
 #dropDownTable table{
-	background-color:#6D97C8;
+	background-color:#BBBBBB;//#6D97C8;
 	width: 90px;
 	opacity: .85;
 	display:none;
 }
 #dropDownTable table tr td:hover{
-	background-color:#1E497C;
+	background-color:black;//#1E497C;
 }
 
 #DropDowns ul li{
@@ -85,7 +107,7 @@ body {
 	font-size: 125%;
 }
 #mainContainer {
-	border:4px solid $borderColor;
+	//border:4px solid $borderColor;
 	width: 800px;
 	height: 850px;
 	margin-left:auto;
@@ -98,13 +120,13 @@ body {
  display:table;
 }
 #cornersLogo{
-	border: 3px solid #948A54;
+	//border: 3px solid #948A54;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
 	height: 100px;
 }
 .homeImages{
-	border: solid #909090 1px;
+	//border: solid #909090 1px;
 }
 #home1{
 	width:300px;
@@ -123,7 +145,8 @@ body {
 	border-radius: $homeImageBorderRadius;
 }
 #home3{
-	width: 628px;
+	//width: 628px;
+	width:690px;
 	position: relative;
 	top: 65px;
 	left: 87px;
@@ -251,7 +274,7 @@ table.topTabs{
 	text-align:center;
 }
 .topTabs tr td a{
-		color:$borderColor;
+		color:#1E497C;//$borderColor;
 		font-size: 130%;
 }
 .topPanes p{
