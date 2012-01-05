@@ -54,6 +54,12 @@ body {
 	padding-left: 280px;
 	top: -18px;
 }
+#DropDownsHomepage{
+	position: relative;
+	z-index: 50;
+	padding-left: 80px;
+	top: 0px;
+}
 #DropDowns ul, table{
 	list-style-type: none;
 	display: table-row;
@@ -148,7 +154,7 @@ body {
 	//width: 628px;
 	width:690px;
 	position: relative;
-	top: 65px;
+	top: 10px;
 	left: 87px;
 	-moz-border-radius: $homeImageBorderRadius;
 	border-radius: $homeImageBorderRadius;
@@ -370,4 +376,8 @@ h4.ourWorkHeader{
 }
 .savethedate img{
 	width:750px;
+}
+.homepageImages{
+	position: fixed;
+	top: 270px;
 }

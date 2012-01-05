@@ -14,6 +14,65 @@
 							%a{href: home_overview_path}
 								%span{id:"lowerTitleFontHomePage"}
 									Veneratio Per Caritatem
+		%tr
+			%td
+			%td
+				#DropDownsHomepage
+					%table{id:"dropDownTable"}
+						%tr
+							%td
+								%span
+									About Us
+								%table
+									%tr
+										%td
+											= link_to "Overview", home_overview_path
+									%tr
+										%td
+											= link_to "Members", home_members_path
+							%td
+								%span
+									Goals
+								%table
+									%tr
+										%td
+											= link_to "Initiatives", home_initiatives_path
+							%td
+								%span
+									Our Work
+								%table
+									%tr
+										%td
+											= link_to "2011", home_work2011_path
+									%tr
+										%td
+											= link_to "2010", home_work2010_path
+							%td
+								%span
+									Events
+								%table
+									%tr
+										%td
+											= link_to "2012", home_event2012_path
+									%tr
+										%td
+											= link_to "2011", home_event2011_path	
+									%tr
+										%td
+											= link_to "2010", home_event2010_path
+							%td
+								%span
+									Donations
+								%table
+									%tr
+										%td
+											= link_to "Why Give?", home_whygive_path
+									%tr
+										%td
+											= link_to "2010 Sponsors", home_sponsors2010_path
+									%tr
+										%td
+											= link_to "Make a Donation", home_makedonation_path
 	.homepageImages
 		= link_to image_tag("charlotteSkyline.jpg", id:"home3"), home_overview_path
 //%img{src:"assets/charlotteSkyline.jpg", id:"home3", class:"homeImages"}
