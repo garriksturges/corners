@@ -12,7 +12,7 @@ Corners::Application.routes.draw do
   get "home/whygive"
   get "home/sponsors2010"
   get "home/makedonation"
-  get "home/test"
+  get "home/eval"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
