@@ -1,0 +1,87 @@
+body{
+ background-color:#EEEEEE
+}
+#mainC{
+   width:970px;
+   height:1000px;
+   overflow:hidden;
+   margin-left:auto;
+   margin-right:auto;
+}
+
+//TOP LAYER
+
+#topTable{
+   position:relative;
+   
+   #mainTop{
+   
+   }
+   .topNav:hover{
+      background-color:#0053A3;
+   }
+   //drop down tables
+   .navDropDown table{
+      display:none;
+      position:absolute;
+      top: 50px;
+      left: 0px;
+      background-color:#0053A3;   
+      tr td{
+         width:119px;
+         text-align: center;
+         a{
+            color: white;
+            text-decoration: none;
+         }
+      }
+      tr td:hover{
+       background-color:#568EC2;
+      }
+   }
+   #aboutUs{
+      width:125px;
+      height:50px;
+      position:absolute;
+      top: 150px;
+      left: 347px;
+   }
+   #goals{
+      width:125px;
+      height:50px;
+      position:absolute;
+      top: 150px;
+      left: 472px;
+   }
+   #ourWork{
+      width:125px;
+      height:50px;
+      position:absolute;
+      top: 150px;
+      left: 597px;
+   }
+   #events{
+      width:125px;
+      height:50px;
+      position:absolute;
+      top: 150px;
+      left: 722px;
+   }
+   #donations{
+      width:125px;
+      height:50px;
+      position:absolute;
+      top: 150px;
+      left: 847px;
+   }
+   
+   //NEW INDEX
+   #middle{
+      width:971px;
+      overflow:hidden;
+      margin-right:auto;
+      margin-left:auto;
+   }
+   
+   
+}

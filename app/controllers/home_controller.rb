@@ -31,4 +31,7 @@ class HomeController < ApplicationController
   
   def makedonation
   end
+  
+  def test
+  end
 end
