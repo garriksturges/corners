@@ -1,12 +1,15 @@
 = render partial:"ie"
-= render partial:"top"
-#mainContainer
+= stylesheet_link_tag "gimpTop"
+/= render partial:"top"
+/#mainContainer
+#mainC
+	= render partial: "gimpTop" 
 	#pageTitle
 		%h1
 			Our Work 2010
 	#ourWork
 		%table{class:"topTabs"}
-			%tr
+			%tr{align:"center"}
 				%td
 					%a{href:"#"}
 						Habitat For Humanity

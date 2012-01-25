@@ -1,6 +1,9 @@
 = render partial:"ie"
-= render partial:"top"
-#mainContainer
+= stylesheet_link_tag "gimpTop"
+/= render partial:"top"
+/#mainContainer
+#mainC{style:"height: 1150px;"}
+	= render partial: "gimpTop"
 	#pageTitle
 		%h1
 			Make a Donation
