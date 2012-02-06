@@ -223,7 +223,7 @@ width: 615px;
 }
 #pageTitle{
 	text-align: center;
-	color:#444444;
+	color:#568EC2;//#444444;
 	margin:0;
 }
 #pageTitle .eventSubText{
@@ -396,4 +396,14 @@ h4.ourWorkHeader{
 .homepageImages{
 	position: fixed;
 	top: 270px;
+}
+#donate{
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#paypal{
+	width:260px;
+	margin-left:auto;
+	margin-right:auto;
 }

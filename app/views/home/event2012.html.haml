@@ -5,9 +5,11 @@
 #mainC
 	= render partial: "gimpTop"
 	#pageTitle
-		%h1
-			Purchase your 2012 Gala tickets here!
+		/%h1
+		/	Purchase your 2012 Gala tickets here!
 		.savethedate
 			=image_tag 'savethedate_2012.png'
-		= render partial: 'paypal'
+		#paypal
+			= render partial: 'paypal'
+			= link_to("What are the sponsorship levels?", asset_path("CornersSponsorshipTiers.pdf"))
 = render partial:"footer"
