@@ -9,6 +9,8 @@
 			Make a Donation
 	#donate
 		= render partial: "donateButton"
+	#donateLink
+		= link_to("Click Here to See Sponsorship Levels", asset_path("CornersSponsorshipTiers.pdf"))
 	#goals_initiatives
 		%ul{style:"text-align:center;"}
 			%li
