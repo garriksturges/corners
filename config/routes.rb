@@ -1,5 +1,11 @@
 Corners::Application.routes.draw do
-  root to: 'home#index'
+  get "corner/index"
+
+  get "corner/overview"
+
+  get "corner/members"
+
+  root to: 'corner#index'
   get "home/index"
   get "home/overview"
   get "home/members"

@@ -1,0 +1,58 @@
+.navbar{class: "navbar-fixed-top"}
+	.navbar-inner
+		.container
+			%a.btn-navbar{class: "btn", "data-toggle"=>"collapse", "data-target"=>".nav-collapse"}
+				%span.icon-bar
+				%span.icon-bar
+				%span.icon-bar
+			%a.brand{href: root_path}
+				The Corners Society
+			.nav-collapse{class: "collapse"}
+				%ul.nav{class: "pull-right"}
+					%li.dropdown
+						%a.dropdown-toggle{"data-toggle"=>"dropdown"}
+							About Us
+							%b.caret
+						%ul.dropdown-menu
+							%li
+								%a{href: corner_overview_path} Overview
+							%li
+								%a{href: corner_members_path} Members
+					%li.dropdown
+						%a.dropdown-toggle{"data-toggle"=>"dropdown"}
+							Goals
+							%b.caret
+						%ul.dropdown-menu
+							%li
+								%a{href: "#"} Initiatives
+					%li.dropdown
+						%a.dropdown-toggle{"data-toggle"=>"dropdown"}
+							Our Work
+							%b.caret
+						%ul.dropdown-menu
+							%li
+								%a{href: "#"} 2011
+							%li
+								%a{href: "#"} 2010
+					%li.dropdown
+						%a.dropdown-toggle{"data-toggle"=>"dropdown"}
+							Events
+							%b.caret
+						%ul.dropdown-menu
+							%li
+								%a{href: "#"} 2012
+							%li
+								%a{href: "#"} 2011
+							%li
+								%a{href: "#"} 2010
+					%li.dropdown
+						%a.dropdown-toggle{"data-toggle"=>"dropdown"}
+							Donations
+							%b.caret
+						%ul.dropdown-menu
+							%li
+								%a{href: "#"} Why Give?
+							%li
+								%a{href: "#"} Sponsors
+							%li
+								%a{href: "#"} Make a Donation

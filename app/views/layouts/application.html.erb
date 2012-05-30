@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--[if lt IE 9]>
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+	  <![endif]-->
   <title>Corners</title>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<%=	render partial: "navbar"%>
+<div class="container">
+	<%= yield %>
+</div>
 </body>
 </html>
