@@ -11,8 +11,9 @@
 </head>
 <body>
 	<%=	render partial: "navbar"%>
-<div class="container">
+	<div class="container">
 	<%= yield %>
+	<%= render partial: "navbarBottom" %>
 </div>
 </body>
 </html>

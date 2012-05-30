@@ -1,9 +1,17 @@
 Corners::Application.routes.draw do
   get "corner/index"
-
+  get "corner/initiatives"
   get "corner/overview"
-
   get "corner/members"
+  get "corner/work2011"
+  get "corner/work2010"
+  get "corner/event2010"
+  get "corner/event2011"
+  get "corner/event2012"
+  get "corner/whygive"
+  get "corner/sponsors"
+  get "corner/makedonation"
+  get "corner/eval"
 
   root to: 'corner#index'
   get "home/index"
