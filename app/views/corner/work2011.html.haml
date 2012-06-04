@@ -21,10 +21,10 @@
 					.carousel-inner
 						.active{class: "item"}
 							.thumbnail
-								= image_tag 'CA01.jpg'
+								= image_tag assetURL('CA01.jpg')
 						.item
 							.thumbnail
-								= image_tag 'CA02.jpg'
+								= image_tag assetURL('CA02.jpg')
 					%a.carousel-control{class: "left", href:"#myCarousel", "data-slide"=>"prev"} &lsaquo;
 					%a.carousel-control{class:"right", href:"#myCarousel", "data-slide"=>"next"} &rsaquo;
 			.tab-pane{id:"shelter"} 
@@ -34,10 +34,10 @@
 					.carousel-inner
 						.active{class: "item"}
 							.thumbnail
-								= image_tag 'Mens_Shelter_1.JPG'
+								= image_tag assetURL('Mens_Shelter_1.JPG')
 						.item
 							.thumbnail
-								= image_tag 'Mens_Shelter_2.JPG'
+								= image_tag assetURL('Mens_Shelter_2.JPG')
 					%a.carousel-control{class:"left", href:"#myCarousel2", "data-slide"=>"prev"} &lsaquo;
 					%a.carousel-control{class:"right", href:"#myCarousel2", "data-slide"=>"next"} &rsaquo;
 			.tab-pane{id:"urban"} 
@@ -46,22 +46,22 @@
 					.carousel-inner
 						.active{class: "item"}
 							.thumbnail
-								= image_tag 'UMimage001.jpg'
+								= image_tag assetURL('UMimage001.jpg')
 						.item
 							.thumbnail
-								= image_tag 'UMimage002.jpg'
+								= image_tag assetURL('UMimage002.jpg')
 						.item
 							.thumbnail
-								= image_tag 'UMimage003.jpg'
+								= image_tag assetURL('UMimage003.jpg')
 						.item
 							.thumbnail
-								= image_tag 'UMimage004.jpg'
+								= image_tag assetURL('UMimage004.jpg')
 						.item
 							.thumbnail
-								= image_tag 'UMIMGP0089.JPG'
+								= image_tag assetURL('UMIMGP0089.JPG')
 						.item
 							.thumbnail
-								= image_tag 'UMIMGP0087.JPG'
+								= image_tag assetURL('UMIMGP0087.JPG')
 					%a.carousel-control{class:"left", href:"#myCarousel3", "data-slide"=>"prev"} &lsaquo;
 					%a.carousel-control{class:"right", href:"#myCarousel3", "data-slide"=>"next"} &rsaquo;
 			.tab-pane{id:"levine"} 
@@ -70,13 +70,13 @@
 					.carousel-inner
 						.active{class: "item"}
 							.thumbnail
-								= image_tag 'pack1.JPG'
+								= image_tag assetURL('pack1.JPG')
 						.item
 							.thumbnail
-								= image_tag 'pack2.JPG'
+								= image_tag assetURL('pack2.JPG')
 						.item
 							.thumbnail
-								= image_tag 'pack3.JPG'
+								= image_tag assetURL('pack3.JPG')
 					%a.carousel-control{class:"left", href:"#myCarousel4", "data-slide"=>"prev"} &lsaquo;
 					%a.carousel-control{class:"right", href:"#myCarousel4", "data-slide"=>"next"} &rsaquo;
 = render partial: "tabreadyjs"
